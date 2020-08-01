@@ -78,7 +78,7 @@ main(List<String> args) {
     'active': true
   };
 
-  Map<String, Object> powerMap2 = {
+  Map<String, dynamic> powerMap2 = {
     'name': 'Natasha',
     'alias': 'Black Widow',
     'age': 22,
