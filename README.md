@@ -66,7 +66,12 @@ Programs:
 	- != -> distinct operator
 
 	- Assignment: =, +=, -=, *=, /=
+	- Assignment if null: ??=
 
 	- Logical: && (and), || (or), ! (not)
 
+	- Conditional:
+
 	- Bitwise: & (and), | (or), ^ (exclusive or), ~ (complement), << (left shift), >> (right shift)
+
+	- Type: is, is! (not is)

@@ -27,6 +27,7 @@ main(List<String> args) {
 
   // assignment operators
   print('Assignment: =, +=, -=, *=, /=');
+  print('Assignment if null: ??=');
 
   // logical operators
   print('Logical: && (and), || (or), ! (not)');
@@ -34,4 +35,9 @@ main(List<String> args) {
   // bitwise operators
   print(
       'Bitwise: & (and), | (or), ^ (exclusive or), ~ (complement), << (left shift), >> (right shift)');
+
+  // type operators
+  print('1 is int -> ${1 is int}');
+  print(''''Hi' is int -> ${'Hi' is int}''');
+  print(''''Hi' is! int -> ${'Hi' is! int}''');
 }
