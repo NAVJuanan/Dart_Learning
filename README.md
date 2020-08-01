@@ -13,6 +13,7 @@ Programs:
 
 	- main() method is the point of start of an application
 	- print() -> prints a text to the standard output stream
+	- Comments -> /* */ or //
 
 
  - 02_Dart_DataTypes
@@ -20,6 +21,8 @@ Programs:
  	- Formatting interpolated string -> print('some text ${variable}'); 
 	- Formatting verbatim string -> print('''Set values declared with 'var': ${villainSet1}''');
 	
+	- var: implicit type
+
 	- int: 100
 	- double: 10.2
 	- bool: true
@@ -44,4 +47,26 @@ Programs:
   			};
 	{name: Steve Rogers, alias: Captain America, age: 25, country: USA, active: true}
 
-	- Comments -> /* */ or //
+
+ - 03_Dart_Operators
+
+	- Addition:       a + b
+	- Subtraction:    a - b
+	- Multiplication: a * b
+	- Division:       a / b
+	- Division (int): a ~/ b
+	- Remainder:      a % b
+
+	- Increment: ++
+	- Decrement: --
+
+	- Relational: >, >=, <, <=
+
+	- == -> equility operator
+	- != -> distinct operator
+
+	- Assignment: =, +=, -=, *=, /=
+
+	- Logical: && (and), || (or), ! (not)
+
+	- Bitwise: & (and), | (or), ^ (exclusive or), ~ (complement), << (left shift), >> (right shift)
