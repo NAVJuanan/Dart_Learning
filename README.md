@@ -75,3 +75,23 @@ Programs:
 	- Bitwise: & (and), | (or), ^ (exclusive or), ~ (complement), << (left shift), >> (right shift)
 
 	- Type: is, is! (not is)
+
+
+ - 04_Dart_Loops
+
+	- Ternary operator -> var voteable = age < 18 ? "Too young": "Old enough";
+		https://www.tutorialsteacher.com/csharp/csharp-ternary-operator
+
+	- if...else
+
+	- switch
+
+	- for	
+
+	- while
+
+	- do...while
+
+	- foreach
+
+	- break/continue
