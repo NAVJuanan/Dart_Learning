@@ -78,4 +78,18 @@ main(List<String> args) {
   for (var strHero in listHeroes) {
     stdout.writeln('Loop FOR..IN hero ${strHero}');
   }
+
+  // labels
+  outerLoop:
+  for (var i = 1; i <= 10; i++) {
+    stdout.writeln('OuterLoop value ${i}');
+
+    innerLoop:
+    for (var j = 1; j <= 5; j++) {
+      stdout.writeln('--InnerLoop value ${j}');
+
+      if (i == 7 && j == 3) break outerLoop;
+      if (j == 3) break innerLoop;
+    }
+  }
 }

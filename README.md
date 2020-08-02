@@ -76,10 +76,10 @@ Programs:
 
 	- Type: is, is! (not is)
 
+	- Ternary operator -> var voteable = age < 18 ? "Too young": "Old enough";
+
 
  - 04_Dart_Loops
-
-	- Ternary operator -> var voteable = age < 18 ? "Too young": "Old enough";
 
 	- if...else
 
@@ -94,3 +94,5 @@ Programs:
 	- for..in
 
 	- break/continue
+
+	- labels
