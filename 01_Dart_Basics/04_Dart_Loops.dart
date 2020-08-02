@@ -73,10 +73,9 @@ main(List<String> args) {
     j++;
   } while (j <= 10);
 
-  // foreach
-  String message = 'Hello!';
-  //foreach (char c in message)
-  //{
-  //    stdout.writeln('Loop FOREACH character ${c}');
-  // }
+  // for..in
+  List<String> listHeroes = ['Batman', 'Superman', 'Wonder Woman', 'Spiderman'];
+  for (var strHero in listHeroes) {
+    stdout.writeln('Loop FOR..IN hero ${strHero}');
+  }
 }

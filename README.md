@@ -80,7 +80,6 @@ Programs:
  - 04_Dart_Loops
 
 	- Ternary operator -> var voteable = age < 18 ? "Too young": "Old enough";
-		https://www.tutorialsteacher.com/csharp/csharp-ternary-operator
 
 	- if...else
 
@@ -92,6 +91,6 @@ Programs:
 
 	- do...while
 
-	- foreach
+	- for..in
 
 	- break/continue
