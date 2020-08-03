@@ -76,7 +76,7 @@ Programs:
 
 	- Type: is, is! (not is)
 
-	- Ternary operator -> var voteable = age < 18 ? 'Too young': 'Old enough';
+	- Ternary: var voteable = age < 18 ? 'Too young': 'Old enough';
 
 
  - 04_Dart_Loops

@@ -40,4 +40,9 @@ main(List<String> args) {
   print('1 is int -> ${1 is int}');
   print(''''Hi' is int -> ${'Hi' is int}''');
   print(''''Hi' is! int -> ${'Hi' is! int}''');
+
+  // ternary operators
+  int age = 21;
+  var voteable = age < 18 ? 'Too young' : 'Old enough';
+  print('''Ternary: age < 18 ? 'Too young' : 'Old enough' -> ${voteable}''');
 }
