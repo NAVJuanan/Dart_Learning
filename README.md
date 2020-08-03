@@ -76,7 +76,7 @@ Programs:
 
 	- Type: is, is! (not is)
 
-	- Ternary operator -> var voteable = age < 18 ? "Too young": "Old enough";
+	- Ternary operator -> var voteable = age < 18 ? 'Too young': 'Old enough';
 
 
  - 04_Dart_Loops
@@ -127,9 +127,17 @@ Programs:
 
  - 07_Dart_Arrow
 
-	- <object> {...<object>}
-		Map<String, dynamic> capitalizemap2(Map<String, dynamic> person) {
-  		person = {...person}; // spread operator
-  		person['name'] = person['name'].toUpperCase();
-  		return person;
-		}
+	- arrow operator -> substitution of 'return'
+		int addArrow(int sum1, int sum2) => sum1 + sum2;
+
+		List<int> listadoNumeros = [1, 3, 6, 12, 11, 4, 9, 15];
+		var nuevoListado = listadoNumeros.where((element) => element > 10);
+
+
+ - 08_Dart_Callback
+
+	- callback function -> substitution of 'return'
+		int addArrow(int sum1, int sum2) => sum1 + sum2;
+
+		List<int> listadoNumeros = [1, 3, 6, 12, 11, 4, 9, 15];
+		var nuevoListado = listadoNumeros.where((element) => element > 10);
