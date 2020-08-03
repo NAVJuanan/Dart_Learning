@@ -96,3 +96,40 @@ Programs:
 	- break/continue
 
 	- labels
+
+
+ - 05_Dart_Functions
+
+	- import -> imports libraries
+		import 'dart:io';
+
+	- stdout.writeln() -> print text (console output stream)
+	- stdin.readLineSync() -> read text (console input stream)
+
+	- <return value> functionName(parameters, [optional parameter])
+		void printMessage(String firstName, [String lastName = 'Doe']) {}
+
+	- <return value> functionName({named parameters})
+		String printMessage({String firstName, String lastName, int times}) {
+			return ''		
+		}
+
+
+ - 06_Dart_Spread
+
+	- <object> {...<object>}
+		Map<String, dynamic> capitalizemap2(Map<String, dynamic> person) {
+  		person = {...person}; // spread operator
+  		person['name'] = person['name'].toUpperCase();
+  		return person;
+		}
+
+
+ - 07_Dart_Arrow
+
+	- <object> {...<object>}
+		Map<String, dynamic> capitalizemap2(Map<String, dynamic> person) {
+  		person = {...person}; // spread operator
+  		person['name'] = person['name'].toUpperCase();
+  		return person;
+		}
